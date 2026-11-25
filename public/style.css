@@ -285,6 +285,9 @@ kbd {
 .g-foundry-severance{--g-led:#fea92f;--g-ink:#8f5a04;--g-hue:70}
 .g-foundry-severance .console .screen{aspect-ratio:1280 / 800}
 .g-foundry-severance .console .bezel{max-width:calc((100svh - 10rem) * 1.6000 + 2rem)}
+.g-word-from-below{--g-led:#fea668;--g-ink:#9e5209;--g-hue:55}
+.g-word-from-below .console .screen{aspect-ratio:1280 / 800}
+.g-word-from-below .console .bezel{max-width:calc((100svh - 10rem) * 1.6000 + 2rem)}
 .g-tidepool{--g-led:#15dbbe;--g-ink:#057262;--g-hue:178}
 .g-tidepool .console .screen{aspect-ratio:1280 / 800}
 .g-tidepool .console .bezel{max-width:calc((100svh - 10rem) * 1.6000 + 2rem)}
@@ -293,6 +296,7 @@ kbd {
 .g-red-queen .console .bezel{max-width:calc((100svh - 10rem) * 1.6000 + 2rem)}
 @media (prefers-color-scheme: dark){
 .g-foundry-severance{--g-ink:#bf7b0f}
+.g-word-from-below{--g-ink:#d1701c}
 .g-tidepool{--g-ink:#169b86}
 .g-red-queen{--g-ink:#db6465}
 }

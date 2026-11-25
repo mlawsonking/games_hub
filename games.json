@@ -134,7 +134,7 @@
       },
       "allow": [],
       "allowWhy": {},
-      "status": "pending-deploy",
+      "status": "published",
       "reason": "Waiting for its Vercel project. Its vercel.json must also list https://games.michaelking.systems in frame-ancestors (branch hub-framing in word_from_below).",
       "screenshot": {
         "src": "shots/word-from-below.webp",
