@@ -1,0 +1,280 @@
+{
+  "$comment": "The one source of truth. Add a game = one entry here + one 1280x800 webp in shots/. Then run `node build.mjs`. Only status \"published\" is rendered and allowed in frame-src.",
+  "families": {
+    "Tidepool": {
+      "title": "Tidepool, two ways",
+      "line": "The same evolving sea twice. In Tidepool you watch it and nudge the water; in Red Queen you harvest it, and it adapts to how you play."
+    }
+  },
+  "games": [
+    {
+      "slug": "foundry-severance",
+      "title": "FOUNDRY",
+      "subtitle": "A Question of Severance",
+      "oneLine": "A turn-based roguelike: you are a maintenance robot waking inside a factory that sealed its doors and severed its staff nineteen years ago.",
+      "blurb": [
+        "You come back online in Maren's workshop in Gatetown, a shanty grown against the factory wall. The bench is cold and the door is open.",
+        "Every move is a turn. Search, pick up what the heaps give you, fit it to your paper doll, and watch integrity and charge. Saves live in the game's own storage, and the in-game export writes them to a file."
+      ],
+      "controls": [
+        [
+          "Move",
+          "Arrow keys or h j k l"
+        ],
+        [
+          "Wait",
+          "."
+        ],
+        [
+          "Pick up",
+          "g"
+        ],
+        [
+          "Search",
+          "s"
+        ],
+        [
+          "Map",
+          "m"
+        ],
+        [
+          "Inventory",
+          "i"
+        ],
+        [
+          "How to play",
+          "?"
+        ],
+        [
+          "Menu",
+          "Esc"
+        ]
+      ],
+      "mobile": {
+        "supported": false,
+        "note": "Needs a keyboard. It has no touch controls, and its title screen is clipped at phone width. Best on a computer."
+      },
+      "url": "https://foundry-severance.vercel.app/",
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin",
+        "allow-pointer-lock",
+        "allow-downloads"
+      ],
+      "sandboxWhy": {
+        "allow-scripts": "The game is JavaScript.",
+        "allow-same-origin": "Gives the game its own origin (never the hub's) so its saves in localStorage work.",
+        "allow-pointer-lock": "Kept from the reviewed base set the game was first framed with. Not used today and harmless.",
+        "allow-downloads": "The save export writes a JSON file through an <a download> click. Without it that silently fails inside the frame."
+      },
+      "allow": [],
+      "allowWhy": {},
+      "status": "published",
+      "reason": "Live at its Vercel URL; frames from another origin (no X-Frame-Options or CSP).",
+      "screenshot": {
+        "src": "shots/foundry-severance.webp",
+        "width": 1280,
+        "height": 800,
+        "alt": "FOUNDRY in play: a robot standing in a wooden workshop in Gatetown, with integrity, charge and systems panels on the right."
+      },
+      "year": 2026,
+      "madeWith": "HTML canvas and plain JavaScript, no framework",
+      "tags": [
+        "roguelike",
+        "turn-based",
+        "keyboard"
+      ],
+      "hue": 70,
+      "added": "2026-11-23"
+    },
+    {
+      "slug": "word-from-below",
+      "title": "Word From Below",
+      "oneLine": "A season at the Downward Tower: you keep the books at the head of the pit, send parties down with written orders, and decide which of their reports to believe.",
+      "blurb": [
+        "You are the Factor at the head of the pit. Parties go down with your written orders and come back with reports, and not every line in a report is true.",
+        "Mark each line trusted, doubted or rejected, and keep the stores, the map and the people straight across a six-week season."
+      ],
+      "controls": [
+        [
+          "Sections",
+          "1 to 6"
+        ],
+        [
+          "Next control",
+          "Tab"
+        ],
+        [
+          "Section rail, map, report lines",
+          "Arrow keys"
+        ],
+        [
+          "Choose, mark a line, open a room",
+          "Enter or Space"
+        ],
+        [
+          "Back or close",
+          "Esc"
+        ]
+      ],
+      "mobile": {
+        "supported": true,
+        "note": "Touch-first on phones, with a bottom tab bar for the six sections."
+      },
+      "url": "https://word-from-below.vercel.app/",
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin",
+        "allow-forms"
+      ],
+      "sandboxWhy": {
+        "allow-scripts": "The game is JavaScript (ES modules).",
+        "allow-same-origin": "Its save and settings live in localStorage, and its module scripts must load from its own origin.",
+        "allow-forms": "The seed field and the room rename are forms whose submit handlers call preventDefault; without it Enter in the seed field would not start a season."
+      },
+      "allow": [],
+      "allowWhy": {},
+      "status": "pending-deploy",
+      "reason": "Waiting for its Vercel project. Its vercel.json must also list https://games.michaelking.systems in frame-ancestors (branch hub-framing in word_from_below).",
+      "screenshot": {
+        "src": "shots/word-from-below.webp",
+        "width": 1280,
+        "height": 800,
+        "alt": "Word From Below in play: the Reports section open on a week 2 debrief from Bessa Thorn, each line marked trusted, beside the section rail."
+      },
+      "year": 2026,
+      "madeWith": "Plain JavaScript ES modules, no framework",
+      "tags": [
+        "management",
+        "deduction",
+        "touch"
+      ],
+      "hue": 55,
+      "added": "2026-11-24"
+    },
+    {
+      "slug": "tidepool",
+      "title": "Tidepool",
+      "family": "Tidepool",
+      "oneLine": "A small ocean that runs itself: creatures with genomes graze, breed, mutate and die, and you only nudge the water.",
+      "blurb": [
+        "A closed ecosystem. Every creature carries a genome of speed, perception, size and restlessness, and pays a metabolic price for its gifts. Nothing is scripted; whatever the pool looks like in ten minutes, it evolved that way.",
+        "Drop nutrients, stir a current, or call a storm. The pool hums if you turn the sound on, and its pitch follows the population. It is a toy more than a game: there is no score and no end."
+      ],
+      "controls": [
+        [
+          "Drop nutrients",
+          "Click or tap"
+        ],
+        [
+          "Stir a current",
+          "Drag"
+        ],
+        [
+          "Storm",
+          "S, or the storm button"
+        ],
+        [
+          "Sound",
+          "the ♪ button"
+        ],
+        [
+          "Help",
+          "the ? button"
+        ]
+      ],
+      "mobile": {
+        "supported": true,
+        "note": "Works on phones: tap and drag both act on the water, and nothing scrolls sideways at 390 px. The trait panel is hidden on narrow screens."
+      },
+      "url": "https://tidepool-chi.vercel.app/",
+      "sandbox": [
+        "allow-scripts"
+      ],
+      "sandboxWhy": {
+        "allow-scripts": "The game is one HTML file with an inline script. It keeps nothing in storage, so it runs in an opaque origin without allow-same-origin."
+      },
+      "allow": [],
+      "allowWhy": {},
+      "status": "published",
+      "reason": "Live at its Vercel URL; frames from another origin (no X-Frame-Options or CSP), verified in a sandboxed iframe on the local server.",
+      "screenshot": {
+        "src": "shots/tidepool.webp",
+        "width": 1280,
+        "height": 800,
+        "alt": "Tidepool running: glowing creatures in many colours drifting among green plants on a dark sea, with the stats panel for The Quiet Basin at bottom left."
+      },
+      "year": 2026,
+      "madeWith": "One HTML file: canvas 2D and Web Audio",
+      "tags": [
+        "simulation",
+        "evolution",
+        "toy"
+      ],
+      "hue": 178,
+      "added": "2026-11-25"
+    },
+    {
+      "slug": "red-queen",
+      "title": "Red Queen",
+      "family": "Tidepool",
+      "oneLine": "A co-evolutionary harvest game: every strike is natural selection, so the pool learns you. Herd its genome into a corner, then exploit the open flank.",
+      "blurb": [
+        "The Tidepool sea again, but now you fish it. Three tools each catch a different kind of creature and breed the opposite trait: the Net breeds speed, the Lure breeds guile, the Jolt breeds nerve. Lean on one and the pool's other flanks open.",
+        "A run lasts three and a half minutes. Each tide you draft one of three powers. Push a trait to its corner to trigger a bloom, then cash the flanks it left open. There is a daily challenge with a shared seed."
+      ],
+      "controls": [
+        [
+          "Strike with the selected tool",
+          "Click or tap"
+        ],
+        [
+          "Net, Lure, Jolt",
+          "1 2 3, or tap a tool card"
+        ],
+        [
+          "Take a power",
+          "Click or tap a card"
+        ],
+        [
+          "Sound",
+          "the ♪ button"
+        ]
+      ],
+      "mobile": {
+        "supported": true,
+        "note": "Plays with taps on a phone. At 390 px the tool bar loses a few pixels at each edge, and the power draft shows only its middle card in full; the other two run off the screen."
+      },
+      "url": "https://redqueen-mu.vercel.app/",
+      "sandbox": [
+        "allow-scripts"
+      ],
+      "sandboxWhy": {
+        "allow-scripts": "The game is one HTML file with an inline script. It keeps nothing in storage, so it runs in an opaque origin without allow-same-origin."
+      },
+      "allow": [
+        "clipboard-write"
+      ],
+      "allowWhy": {
+        "clipboard-write": "The end screen's Copy result button writes the run summary to the clipboard. Without this permission the copy is blocked, though the button still says Copied."
+      },
+      "status": "published",
+      "reason": "Live at its Vercel URL; frames from another origin (no X-Frame-Options or CSP), verified in a sandboxed iframe on the local server.",
+      "screenshot": {
+        "src": "shots/red-queen.webp",
+        "width": 1280,
+        "height": 800,
+        "alt": "Red Queen in play: a pale sea of creatures around the Lure's gold strike ring, score 732 at the top, the gene-pool triangle at bottom left and the Net, Lure and Jolt cards along the bottom."
+      },
+      "year": 2026,
+      "madeWith": "One HTML file: canvas 2D and Web Audio",
+      "tags": [
+        "arcade",
+        "evolution",
+        "touch"
+      ],
+      "hue": 22,
+      "added": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,659 @@
+{
+  "pages": [
+    {
+      "url": "/",
+      "vw": "390",
+      "scheme": "light",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 390,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": "home-390-light.jpg"
+    },
+    {
+      "url": "/",
+      "vw": "390",
+      "scheme": "dark",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 390,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": "home-390-dark.jpg"
+    },
+    {
+      "url": "/",
+      "vw": "1440",
+      "scheme": "light",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 1440,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": "home-1440-light.jpg"
+    },
+    {
+      "url": "/",
+      "vw": "1440",
+      "scheme": "dark",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 1440,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": "home-1440-dark.jpg"
+    },
+    {
+      "url": "/foundry-severance/",
+      "vw": "390",
+      "scheme": "light",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 390,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": "foundry-severance-390-light.jpg"
+    },
+    {
+      "url": "/foundry-severance/",
+      "vw": "390",
+      "scheme": "dark",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 390,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": "foundry-severance-390-dark.jpg"
+    },
+    {
+      "url": "/foundry-severance/",
+      "vw": "1440",
+      "scheme": "light",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 1440,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": "foundry-severance-1440-light.jpg"
+    },
+    {
+      "url": "/foundry-severance/",
+      "vw": "1440",
+      "scheme": "dark",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 1440,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": "foundry-severance-1440-dark.jpg"
+    },
+    {
+      "url": "/tidepool/",
+      "vw": "390",
+      "scheme": "light",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 390,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": null
+    },
+    {
+      "url": "/tidepool/",
+      "vw": "390",
+      "scheme": "dark",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 390,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": null
+    },
+    {
+      "url": "/tidepool/",
+      "vw": "1440",
+      "scheme": "light",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 1440,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": null
+    },
+    {
+      "url": "/tidepool/",
+      "vw": "1440",
+      "scheme": "dark",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 1440,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": null
+    },
+    {
+      "url": "/red-queen/",
+      "vw": "390",
+      "scheme": "light",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 390,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": null
+    },
+    {
+      "url": "/red-queen/",
+      "vw": "390",
+      "scheme": "dark",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 390,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": null
+    },
+    {
+      "url": "/red-queen/",
+      "vw": "1440",
+      "scheme": "light",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 1440,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": null
+    },
+    {
+      "url": "/red-queen/",
+      "vw": "1440",
+      "scheme": "dark",
+      "status": 200,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 1440,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 0,
+      "foreignRequests": [],
+      "shot": null
+    },
+    {
+      "url": "/no-such-page/",
+      "vw": "390",
+      "scheme": "light",
+      "status": 404,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 390,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 2,
+      "foreignRequests": [],
+      "shot": "404-390-light.jpg"
+    },
+    {
+      "url": "/no-such-page/",
+      "vw": "390",
+      "scheme": "dark",
+      "status": 404,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 390,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 2,
+      "foreignRequests": [],
+      "shot": "404-390-dark.jpg"
+    },
+    {
+      "url": "/no-such-page/",
+      "vw": "1440",
+      "scheme": "light",
+      "status": 404,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 1440,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 2,
+      "foreignRequests": [],
+      "shot": "404-1440-light.jpg"
+    },
+    {
+      "url": "/no-such-page/",
+      "vw": "1440",
+      "scheme": "dark",
+      "status": 404,
+      "xRobots": "noindex, nofollow",
+      "scrollWidth": 1440,
+      "iframes": 0,
+      "csp": [],
+      "robots": "noindex, nofollow",
+      "fonts": [
+        "Big Shoulders Display",
+        "Atkinson Hyperlegible Next",
+        "JetBrains Mono"
+      ],
+      "hubErrors": [],
+      "expected404": 2,
+      "foreignRequests": [],
+      "shot": "404-1440-dark.jpg"
+    }
+  ],
+  "play": [
+    {
+      "game": "foundry-severance",
+      "vw": "390",
+      "iframesBeforePlay": 0,
+      "foreignBeforePlay": [],
+      "focusInGame": true,
+      "src": "https://foundry-severance.vercel.app/",
+      "sandbox": "allow-scripts allow-same-origin allow-pointer-lock allow-downloads",
+      "allow": null,
+      "referrer": "no-referrer",
+      "frameLoaded": true,
+      "foreignAfterPlayOrigins": [
+        "https://foundry-severance.vercel.app"
+      ],
+      "otherOriginBeforePlay": 0,
+      "frameBox": [
+        342,
+        214
+      ],
+      "focusAfterPowerOn": true,
+      "keysChangedFrame": {
+        "ArrowRight": true,
+        "ArrowDown": true,
+        "i": false
+      },
+      "keyChangedFrame": true,
+      "keyEvidence": "play-foundry-severance-390-2-after-key.jpg",
+      "fullscreenOffered": true,
+      "iframesAfterStop": 0,
+      "focusOnPlayAfterStop": true,
+      "newTabLink": {
+        "href": "https://foundry-severance.vercel.app/",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      "csp": [],
+      "hubErrors": [],
+      "gameErrors": []
+    },
+    {
+      "game": "foundry-severance",
+      "vw": "1440",
+      "iframesBeforePlay": 0,
+      "foreignBeforePlay": [],
+      "focusInGame": true,
+      "src": "https://foundry-severance.vercel.app/",
+      "sandbox": "allow-scripts allow-same-origin allow-pointer-lock allow-downloads",
+      "allow": null,
+      "referrer": "no-referrer",
+      "frameLoaded": true,
+      "foreignAfterPlayOrigins": [
+        "https://foundry-severance.vercel.app"
+      ],
+      "otherOriginBeforePlay": 0,
+      "frameBox": [
+        1184,
+        740
+      ],
+      "focusAfterPowerOn": true,
+      "keysChangedFrame": {
+        "ArrowRight": true,
+        "ArrowDown": true,
+        "i": true
+      },
+      "keyChangedFrame": true,
+      "keyEvidence": "play-foundry-severance-1440-2-after-key.jpg",
+      "fullscreenOffered": true,
+      "fullscreenEntered": true,
+      "exitVisibleInFullscreen": true,
+      "fullscreenExited": true,
+      "focusAfterFullscreen": true,
+      "iframesAfterStop": 0,
+      "focusOnPlayAfterStop": true,
+      "newTabLink": {
+        "href": "https://foundry-severance.vercel.app/",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      "csp": [],
+      "hubErrors": [],
+      "gameErrors": []
+    },
+    {
+      "game": "tidepool",
+      "vw": "390",
+      "iframesBeforePlay": 0,
+      "foreignBeforePlay": [],
+      "focusInGame": true,
+      "src": "https://tidepool-chi.vercel.app/",
+      "sandbox": "allow-scripts",
+      "allow": null,
+      "referrer": "no-referrer",
+      "frameLoaded": true,
+      "foreignAfterPlayOrigins": [
+        "https://tidepool-chi.vercel.app"
+      ],
+      "otherOriginBeforePlay": 0,
+      "frameBox": [
+        390,
+        700
+      ],
+      "keyStorm": "a storm churns the water",
+      "tapPlants": [
+        115,
+        139
+      ],
+      "fullscreenOffered": true,
+      "iframesAfterStop": 0,
+      "focusOnPlayAfterStop": true,
+      "newTabLink": {
+        "href": "https://tidepool-chi.vercel.app/",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      "csp": [],
+      "hubErrors": [],
+      "gameErrors": []
+    },
+    {
+      "game": "tidepool",
+      "vw": "1440",
+      "iframesBeforePlay": 0,
+      "foreignBeforePlay": [],
+      "focusInGame": true,
+      "src": "https://tidepool-chi.vercel.app/",
+      "sandbox": "allow-scripts",
+      "allow": null,
+      "referrer": "no-referrer",
+      "frameLoaded": true,
+      "foreignAfterPlayOrigins": [
+        "https://tidepool-chi.vercel.app"
+      ],
+      "otherOriginBeforePlay": 0,
+      "frameBox": [
+        1184,
+        740
+      ],
+      "keyStorm": "a storm churns the water",
+      "tapPlants": [
+        182,
+        233
+      ],
+      "fullscreenOffered": true,
+      "fullscreenEntered": true,
+      "exitVisibleInFullscreen": true,
+      "fullscreenExited": true,
+      "focusAfterFullscreen": true,
+      "iframesAfterStop": 0,
+      "focusOnPlayAfterStop": true,
+      "newTabLink": {
+        "href": "https://tidepool-chi.vercel.app/",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      "csp": [],
+      "hubErrors": [],
+      "gameErrors": []
+    },
+    {
+      "game": "red-queen",
+      "vw": "390",
+      "iframesBeforePlay": 0,
+      "foreignBeforePlay": [],
+      "focusInGame": true,
+      "src": "https://redqueen-mu.vercel.app/",
+      "sandbox": "allow-scripts",
+      "allow": "clipboard-write",
+      "referrer": "no-referrer",
+      "frameLoaded": true,
+      "foreignAfterPlayOrigins": [
+        "https://redqueen-mu.vercel.app"
+      ],
+      "otherOriginBeforePlay": 0,
+      "frameBox": [
+        390,
+        700
+      ],
+      "score": 523,
+      "fullscreenOffered": true,
+      "iframesAfterStop": 0,
+      "focusOnPlayAfterStop": true,
+      "newTabLink": {
+        "href": "https://redqueen-mu.vercel.app/",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      "csp": [],
+      "hubErrors": [],
+      "gameErrors": []
+    },
+    {
+      "game": "red-queen",
+      "vw": "1440",
+      "iframesBeforePlay": 0,
+      "foreignBeforePlay": [],
+      "focusInGame": true,
+      "src": "https://redqueen-mu.vercel.app/",
+      "sandbox": "allow-scripts",
+      "allow": "clipboard-write",
+      "referrer": "no-referrer",
+      "frameLoaded": true,
+      "foreignAfterPlayOrigins": [
+        "https://redqueen-mu.vercel.app"
+      ],
+      "otherOriginBeforePlay": 0,
+      "frameBox": [
+        1184,
+        740
+      ],
+      "keySelectsTool": true,
+      "score": 203,
+      "fullscreenOffered": true,
+      "fullscreenEntered": true,
+      "exitVisibleInFullscreen": true,
+      "fullscreenExited": true,
+      "focusAfterFullscreen": true,
+      "iframesAfterStop": 0,
+      "focusOnPlayAfterStop": true,
+      "newTabLink": {
+        "href": "https://redqueen-mu.vercel.app/",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      "csp": [],
+      "hubErrors": [],
+      "gameErrors": []
+    }
+  ],
+  "nojs": {
+    "playHref": "https://foundry-severance.vercel.app/",
+    "playVisible": true,
+    "controlsRows": 8,
+    "phoneNote": "Phone: no. Needs a keyboard. It has no touch controls, and its title screen is clipped at phone width. Best on a computer.",
+    "iframes": 0
+  },
+  "notFound": {
+    "status": 404,
+    "title": "No signal · Games"
+  },
+  "summary": {
+    "pagesChecked": 20,
+    "hubConsoleErrors": 0,
+    "cspViolations": 0,
+    "foreignRequestsWithoutPlay": 0,
+    "foreignRequestsBeforePlay": 0,
+    "horizontalOverflow": [],
+    "allNoindex": true,
+    "playsLoaded": "6/6",
+    "focusIntoGame": "6/6",
+    "foundryKey": [
+      "390: {\"ArrowRight\":true,\"ArrowDown\":true,\"i\":false}",
+      "1440: {\"ArrowRight\":true,\"ArrowDown\":true,\"i\":true}"
+    ]
+  }
+}
