@@ -85,3 +85,7 @@ Also: `foundry-severance-{390,1440}-{light,dark}.jpg`, `404-*.jpg`, `play-*-3-fu
   (the Full screen button hides itself when the API is missing).
 - The live domain: DNS and Vercel are not set up yet, so headers were verified on the local server only.
 - The local servers used for this report were stopped afterwards.
+
+## Live check, 2026-11-25 (games.michaelking.systems)
+
+All four games pressed Play at 1440x900 and 390x844 (mobile, touch): each frame loaded from its own vercel.app origin and rendered content; 0 console errors and 0 CSP violations across 8 loads. Headers: CSP with frame-src limited to the 4 game origins, X-Robots-Tag noindex, Referrer-Policy no-referrer. Source files (games.json, build.mjs, README.md, evidence/) return 404. Script: tools/live-check.cjs.
