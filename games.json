@@ -349,7 +349,7 @@
       "oneLine": "A co-op contraption builder for the family TV: chain the sleeping household's habits to get the cookie to the kids' bed without waking the grown-up.",
       "blurb": [
         "Pass the remote. Each player places one piece, then someone holds go and the whole chain runs by itself. The parts are the household: the cat always chases the red dot, the dog fetches whatever lands by its bed and carries it to the kids, a string opens a door quietly, and too much noise wakes the grown-up.",
-        "For example, in the cottage: put the red dot by the cookie jar so the cat knocks it over, and the string by the kids' door so the dog can carry the cookie through quietly. Three houses, one to four players, and a failed run rewinds and marks what went wrong."
+        "Each house opens with a wordless picture of the goal and a tour of the creatures' habits, in thought bubbles. The first house is won with one piece: the red dot by the jar. Four houses, one to four players, and a failed run rewinds and points at the link that never happened."
       ],
       "controls": [
         [
@@ -363,6 +363,10 @@
         [
           "Go, and back to the houses",
           "Hold Enter or A for a second"
+        ],
+        [
+          "Skip the intro",
+          "Enter or A"
         ],
         [
           "Sound",
