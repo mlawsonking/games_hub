@@ -275,6 +275,136 @@
       ],
       "hue": 22,
       "added": "2026-11-25"
+    },
+    {
+      "slug": "undertow",
+      "title": "Undertow",
+      "oneLine": "You have no weapon: the whole screen is a live fluid, and you dash to stir it so the water itself tears the enemies apart.",
+      "blurb": [
+        "Every dash leaves a wake and a whirl in glowing dye. Enemies drift with the water and are only hurt by fast or shearing water, by hard crashes into walls or each other, and by the eye of a strong whirl. Still water keeps them safe, and the calmer it gets, the faster more of them arrive.",
+        "Lime drifters break in any rough water, orange heavies only in a whirl's eye or a hard crash, and magenta splitters split in two. Four hits end the run; quick kills chain for more score, and every fight leaves a different painting."
+      ],
+      "controls": [
+        [
+          "Aim",
+          "Mouse, or left stick"
+        ],
+        [
+          "Dash",
+          "Click or Space, or A or right trigger"
+        ],
+        [
+          "Start or dive again",
+          "Enter or click"
+        ],
+        [
+          "Tuning panel",
+          "T"
+        ],
+        [
+          "Sound",
+          "M"
+        ]
+      ],
+      "mobile": {
+        "supported": false,
+        "note": "Made for a computer: it needs WebGL2 with float render targets and a decent graphics chip, and has no touch controls. Not tried at 390 px."
+      },
+      "url": "https://undertow-wheat.vercel.app/",
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ],
+      "sandboxWhy": {
+        "allow-scripts": "The game is JavaScript (ES modules and WebGL2).",
+        "allow-same-origin": "Its module scripts load from its own origin, and its best score and mute setting live in localStorage."
+      },
+      "allow": [
+        "gamepad"
+      ],
+      "allowWhy": {
+        "gamepad": "Gamepad aiming and dashing. Cross-origin frames get no gamepad input without it."
+      },
+      "status": "published",
+      "reason": "Live at its Vercel URL; its CSP frame-ancestors lists https://games.michaelking.systems.",
+      "screenshot": {
+        "src": "shots/undertow.webp",
+        "width": 1280,
+        "height": 800,
+        "alt": "Undertow in play: swirls of violet, green, gold and cyan dye on a dark field, lime, orange and magenta enemies scattered through it, wave 1, score 300, chain x2."
+      },
+      "year": 2026,
+      "madeWith": "Plain JavaScript ES modules and WebGL2, no framework",
+      "tags": [
+        "arcade",
+        "fluid",
+        "gpu"
+      ],
+      "hue": 190,
+      "added": "2026-11-27"
+    },
+    {
+      "slug": "midnight-snack",
+      "title": "Midnight Snack",
+      "oneLine": "A co-op contraption builder for the family TV: chain the sleeping household's habits to get the cookie to the kids' bed without waking the grown-up.",
+      "blurb": [
+        "Pass the remote. Each player places one piece, then someone holds go and the whole chain runs by itself. The parts are the household: the cat always chases the red dot, the dog fetches whatever lands by its bed and carries it to the kids, a string opens a door quietly, and too much noise wakes the grown-up.",
+        "For example, in the cottage: put the red dot by the cookie jar so the cat knocks it over, and the string by the kids' door so the dog can carry the cookie through quietly. Three houses, one to four players, and a failed run rewinds and marks what went wrong."
+      ],
+      "controls": [
+        [
+          "Move",
+          "Left and Right arrow keys, or d-pad"
+        ],
+        [
+          "Choose or place",
+          "Enter or Space, or A"
+        ],
+        [
+          "Go, and back to the houses",
+          "Hold Enter or A for a second"
+        ],
+        [
+          "Sound",
+          "M"
+        ]
+      ],
+      "mobile": {
+        "supported": false,
+        "note": "Made for a TV or computer with a keyboard or gamepad; there are no touch controls. Not tried at 390 px."
+      },
+      "url": "https://midnight-snack-tan.vercel.app/",
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ],
+      "sandboxWhy": {
+        "allow-scripts": "The game is JavaScript (ES modules and canvas).",
+        "allow-same-origin": "Its module scripts load from its own origin, and the solved-house stars live in localStorage."
+      },
+      "allow": [
+        "gamepad"
+      ],
+      "allowWhy": {
+        "gamepad": "Made to be played with a gamepad on the TV. Cross-origin frames get no gamepad input without it."
+      },
+      "status": "published",
+      "reason": "Live at its Vercel URL; its CSP frame-ancestors lists https://games.michaelking.systems.",
+      "screenshot": {
+        "src": "shots/midnight-snack.webp",
+        "width": 1280,
+        "height": 800,
+        "alt": "Midnight Snack running in the tall house: the cat sits on the red dot by the tipped jar upstairs, the cookie tumbles down the stairs past a string-opened door toward the kids' bed, and the sleeping faces meter shows three stirring."
+      },
+      "year": 2026,
+      "madeWith": "Plain JavaScript ES modules and canvas 2D, no framework",
+      "tags": [
+        "family",
+        "co-op",
+        "puzzle"
+      ],
+      "hue": 265,
+      "added": "2026-11-27"
     }
   ]
 }

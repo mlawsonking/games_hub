@@ -294,9 +294,17 @@ kbd {
 .g-red-queen{--g-led:#fda19e;--g-ink:#b03d41;--g-hue:22}
 .g-red-queen .console .screen{aspect-ratio:1280 / 800}
 .g-red-queen .console .bezel{max-width:calc((100svh - 10rem) * 1.6000 + 2rem)}
+.g-undertow{--g-led:#1bd9d1;--g-ink:#06726e;--g-hue:190}
+.g-undertow .console .screen{aspect-ratio:1280 / 800}
+.g-undertow .console .bezel{max-width:calc((100svh - 10rem) * 1.6000 + 2rem)}
+.g-midnight-snack{--g-led:#9ebdff;--g-ink:#3c61bd;--g-hue:265}
+.g-midnight-snack .console .screen{aspect-ratio:1280 / 800}
+.g-midnight-snack .console .bezel{max-width:calc((100svh - 10rem) * 1.6000 + 2rem)}
 @media (prefers-color-scheme: dark){
 .g-foundry-severance{--g-ink:#bf7b0f}
 .g-word-from-below{--g-ink:#d1701c}
 .g-tidepool{--g-ink:#169b86}
 .g-red-queen{--g-ink:#db6465}
+.g-undertow{--g-ink:#0e9a94}
+.g-midnight-snack{--g-ink:#5f87e7}
 }
